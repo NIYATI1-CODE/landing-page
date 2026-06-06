@@ -6,7 +6,7 @@ body{
   background-color: #1F2937;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   padding: 10px 60px;
@@ -114,9 +114,12 @@ a{
 }
 .quote{
   height: 100px;
-  background-color: rgb(220, 219, 219);
+  padding: 18px;
+  background-color: #E5E7EB;
+  color: #1F2937 ;
+  font-style: italic;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,6 +142,7 @@ a{
   align-items: center;
   padding: 15px 70px;
   border-radius: 10px;
+  font-family: Arial;
 }
 
 .topic{
@@ -159,4 +163,13 @@ a{
   font-size: 12px;
   border-radius: 5px;
 }
-
+.footer{
+  background-color: #1F2937;
+  padding: 30px;
+  font-family: Arial;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(217, 217, 217);
+}
