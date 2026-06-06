@@ -1,5 +1,9 @@
+body{
+  font-family: Roboto;
+}
+
 .main{
-  background-color: rgb(51, 49, 49);
+  background-color: #1F2937;
 }
 
 .header{
@@ -55,14 +59,14 @@ a{
   margin: 0;
   color: whitesmoke;
 }
-.sign_in{
-  background-color: rgb(69, 92, 240);
+.sign{
+  background-color: #3882F6;
   color: white;
   font-size: 16px;
   font-weight: bold;
   padding: 9px 20px;
   border-style: none;
-  border-radius: 7%;
+  border-radius: 5px;
   align-self: flex-start;
   cursor: pointer;
 }
@@ -106,5 +110,53 @@ a{
   padding: 6px;
   text-align: center;
   font-size: 16px;
-  font-family: Arial;
+  
 }
+.quote{
+  height: 100px;
+  background-color: rgb(220, 219, 219);
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.speaker{
+  font-weight: bold;
+}
+.call_to_action{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cta{
+  display: flex;
+  gap: 50px;
+  background-color: #3882F6;
+  height: 60px;
+  align-items: center;
+  padding: 15px 70px;
+  border-radius: 10px;
+}
+
+.topic{
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+.subtopic{
+  font-size: 12px;
+  color: rgb(230, 229, 229);
+}
+
+.sign_up{
+  color: white;
+  background-color: #3882F6;
+  border: 2px solid white;
+  padding: 5px 18px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
